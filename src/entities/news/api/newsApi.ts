@@ -5,7 +5,7 @@ import { NewsApiResponse } from "..";
 
 const BASE_URL = import.meta.env.VITE_NEWS_BASE_API_URL;
 const API_KEY = import.meta.env.VITE_NEWS_API_KEY;
-//const API_KEY_RESERVE = import.meta.env.VITE_NEWS_API_KEY_RESERVE;
+//const API_KEY = import.meta.env.VITE_NEWS_API_KEY_RESERVE;
 
 export const newsApi = createApi({
   reducerPath: "newsApi",
